@@ -1,0 +1,121 @@
+.connect-title {
+    margin-top: 250px;
+    padding: 10px;
+}
+
+.connect-title img {
+    width: 100%;
+}
+
+.connect-point {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 14px 0;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.connect-point_item {
+    width: 116px;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0px 5px 0px #308c0f;
+    border: 2px solid #36a638;
+    border-radius: 8px;
+    a {
+        display: block;
+        line-height: 40px;
+        width: 100%;
+        text-decoration: none;
+        color: #31b026;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 20px;
+        text-align: center;
+    }
+    span {
+        background: linear-gradient(
+            180deg,
+            #e7e7e7 0%,
+            rgba(255, 255, 255, 0) 100%
+        );
+        display: block;
+        border-radius: 8px;
+        text-shadow: 0px 2px 0px #65ff62;
+    }
+}
+
+.contact {
+    width: 100%;
+    height: 120px;
+    padding: 0 10px;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrap-detail-bongbet {
+    padding: 0 10px;
+}
+
+.detail-bongbet {
+    display: grid;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 100%;
+    background: linear-gradient(
+            360deg,
+            rgba(8, 189, 15, 0.2) 0%,
+            rgba(0, 255, 10, 0) 100%
+        ),
+        #fff;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, #453d3e, #1e1a1c);
+    border-image-slice: 1;
+    a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #36a638;
+        text-transform: uppercase;
+        display: block;
+        width: 120px;
+        padding: 6px 0;
+        margin: 10px 0;
+        font-size: 12px;
+        line-height: 12px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+        color: #36a638;
+        font-size: 16px;
+        font-weight: 800;
+        margin: 8px 0;
+    }
+    p {
+        color: #1c252c;
+        font-size: 10px;
+        font-weight: 500;
+        span {
+            color: #36a638;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.question-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
