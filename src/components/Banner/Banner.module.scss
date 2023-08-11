@@ -1,0 +1,89 @@
+.banner {
+    background: url(../../../public/images/mb-background_banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.logo {
+    text-align: center;
+    img {
+        width: 240px;
+    }
+}
+
+.wrap-banner-content {
+    margin: 50px auto;
+}
+
+.title {
+    margin-top: 40px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.nav {
+    margin-top: 10px;
+    padding: 0 10px;
+    div {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        margin-bottom: 12px;
+        &:last-child {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            grid-auto-flow: column;
+            margin-bottom: 0;
+            img {
+                width: 172px;
+            }
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.promotion_news {
+    width: 100%;
+    padding: 10px;
+}
+
+.multi-platform {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-update {
+    display: flex;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.social-layout {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin: 10px;
+    border-radius: 13px;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+.social {
+    width: 100%;
+    display: grid;
+    gap: 20px 0px;
+    grid-template-columns: 145px 145px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    img {
+        width: 80px;
+    }
+}
