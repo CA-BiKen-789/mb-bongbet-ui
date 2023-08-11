@@ -1,0 +1,53 @@
+.footer {
+    background: url(../../../public/images/mb-background_footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.wrapper-footer {
+    width: 100%;
+}
+
+.partner {
+    text-align: center;
+    h1 {
+        text-transform: capitalize;
+        text-align: left;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 700;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+.info-support {
+    display: flex;
+    padding: 10px;
+    img {
+        width: 40%;
+        border-radius: 13px;
+    }
+    .copyright {
+        img {
+            width: 60px;
+        }
+    }
+}
+
+.contact-support {
+    h1 {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 700;
+    }
+    span {
+        font-size: 10px;
+        color: #fff;
+    }
+}

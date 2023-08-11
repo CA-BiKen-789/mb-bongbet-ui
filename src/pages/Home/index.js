@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import styles from "./Home.module.scss";
 import Banner from "~/components/Banner";
+import Footer from "~/components/Footer";
 
 const cx = classNames.bind(styles);
 
@@ -61,6 +62,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
