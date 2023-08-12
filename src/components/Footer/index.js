@@ -8,11 +8,12 @@ function Footer() {
         <div className={cx('footer')}>
             <div className={cx('wrapper-footer')}>
                 <div className={cx('info-support')}>
-                    <img src="/images/logo_footer.png" alt="Logo" />
-                    <div className={cx('copyright')}>
-                        <img src="/images/copyright.png" alt="Bản quyền" />
+                    <div className={cx('logo')}>
+                        <img src="/images/logo_footer.png" alt="Logo" />
+                        <div className={cx('copyright')}>
+                            <img src="/images/copyright.png" alt="Bản quyền" />
+                        </div>
                     </div>
-
                     <div className={cx('partner')}>
                         <h1>Với các đối tác</h1>
                         <img src="/images/partner.png" alt="Đối tác" />
